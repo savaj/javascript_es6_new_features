@@ -59,9 +59,17 @@ x = x + 10;   // This will also give an error
 
 ## Javascript Arrow function
 // ES5
+
 var a = function(a, b) {
-   return a + b;
+   
+  return a + b;
+
 }
 
 // ES6
-const a = (a, b) => a + b;
+
+const a = (a, b) => { 
+
+return a + b; 
+
+};
